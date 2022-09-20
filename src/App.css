@@ -1,0 +1,50 @@
+.nav-bg {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.logo {
+  font-size: 18px !important;
+  font-family: fantasy;
+}
+.nav-link {
+  color: black;
+  font-size: 14px;
+  font-weight: 700 !important;
+}
+.dropdown-menu {
+  background-color: #fff !important;
+  --bs-dropdown-link-active-color: #cdcccc !important;
+  --bs-dropdown-link-hover-bg: #cdcccc !important;
+}
+.navbar-collapse {
+  flex-grow: 0 !important;
+}
+
+.btn-primary {
+  --bs-btn-bg: #fff !important;
+  --bs-btn-color: black !important;
+  --bs-btn-hover-border-color: #fff !important;
+  --bs-btn-border-color: #fff !important;
+  --bs-btn-hover-color: #000 !important;
+  --bs-btn-hover-bg: #fff !important;
+  --bs-btn-active-color: #000 !important;
+  --bs-btn-active-bg: #fff !important;
+  --bs-btn-active-border-color: #ffff;
+  --bs-btn-active-shadow: none !important;
+}
+.card-display {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  margin-top: 100px !important;
+  --bs-card-border-color: #fff !important;
+  --bs-card-bg: none !important;
+}
+
+.card {
+  --bs-card-border-color: #fff !important;
+  /* --bs-card-bg: red !important; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
